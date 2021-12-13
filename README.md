@@ -9,11 +9,11 @@ The usage of the system is as follows:
 2. Sign in and authentification to Google Drive is prompted
 3. System is then on but not armed
 4. Upon button press, password to arm is requested
-    1. If password was wrong, three tries are allowd until alarm sounds and text alert is sent
+    1. If password was wrong, three tries are allowed until alarm sounds and text alert is sent
 5. If password is correct system is active
 6. If door sensor is triggered
     1. Audio alarm sounds
-    2. security cam activated
+    2. Security cam activated
     3. Text alert sent via sms
     4. Security footage uploaded to Google Drive
 7. System disarming happens the same way as arming
@@ -37,7 +37,7 @@ The usage of the system is as follows:
 
 - 220 Ohm Resistor
 
-<img src="https://github.com/Liam-RA-Fisher/CSCI226/Single-Door-Raspberry-Pi-Security-System/blob/master/220.jpg" width=30% height=30%>
+<img src="https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System/blob/master/220.jpg" width=30% height=30%>
 
 - USB Keyboard
 - USB Mouse
@@ -104,7 +104,7 @@ It imports the other files and takes care of the threading of the components of 
 
 This file takes care of the seciruty camera.
 It connects to Google Drive on start up and performs authorization.
-It also creates a function to record footage when prompted and upload the footage to gooogle drive.
+It also creates a function to record footage when prompted and upload the footage to Google Drive.
 
 ### send_sms.py
 
@@ -112,11 +112,11 @@ This file is the API to interact with the Twilio SMS service.
 
 ### door_monitor.py
 
-This program creates three functions. One function monitors and responds to the activate and deactivate button.
+This program creates three functions. One function monitors and responds to the arm and disarm button.
 When the system is armed or dissarmed, a password is requested as well. There is also an LED
 to indicate if the system is active or not.
 The other function monotors the mini reed door sensor. If the sensor is activated the audio alarm is triggered,
-the security cam is triggered, and the an SMS alert is sent.
+the security cam is triggered, and an SMS alert is sent.
 
 ## Set Up
 
@@ -174,7 +174,7 @@ Overall this project is a sucessful template for a homemade single door security
 to implement is a UI for easy booting and shutting down of the system. Currently to boot the program you 
 have to run a Python program in the terminal. It would be nice to have a web interface to boot and shutdown the system.
 
-## Resources
+## Referances
 
 1. https://github.com/fritzing/fritzing-parts/tree/master/svg/core/breadboard
 2. https://www.makersupplies.sg/products/ky-021-reed-switch-module-magnetic-switch
