@@ -23,21 +23,21 @@ The usage of the system is as follows:
 - Raspberry Pi 3B+
 - KY-021 Mini Reed Switch
 
-<img src="https://github.com/Liam-RA-Fisher/CSCI226/blob/main/CSCI226-Main-Project/reed.jpg" width=30% height=30%>
+<img src="https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System/blob/master/reed.jpg" width=30% height=30%>
 
 - Push Button
 - Red LED
 - MakerFocus Raspberry Pi 4 Camera Night Vision Camera Adjustable-Focus Module 5MP OV5647
 
-<img src="https://github.com/Liam-RA-Fisher/CSCI226/blob/main/CSCI226-Main-Project/camera.jpg" width=30% height=30%>
+<img src="https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System/blob/master/camera.jpg" width=30% height=30%>
 
 - 10 k Ohm Resistor
 
-<img src="https://github.com/Liam-RA-Fisher/CSCI226/blob/main/CSCI226-Main-Project/10.jpg" width=30% height=30%>
+<img src="https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System/blob/master/10.jpg" width=30% height=30%>
 
 - 220 Ohm Resistor
 
-<img src="https://github.com/Liam-RA-Fisher/CSCI226/blob/main/CSCI226-Main-Project/220.jpg" width=30% height=30%>
+<img src="https://github.com/Liam-RA-Fisher/CSCI226/Single-Door-Raspberry-Pi-Security-System/blob/master/220.jpg" width=30% height=30%>
 
 - USB Keyboard
 - USB Mouse
@@ -77,7 +77,7 @@ physical implementation could involve hooking the reed switch next to the door, 
 to the door itself so that it will triger reed switch when the door is opened, 
 and setting up the keypad / led / arm-disarm button outside the protected door.
 
-![Wiring](https://github.com/Liam-RA-Fisher/CSCI226/blob/main/CSCI226-Main-Project/Security_System_Wiring.jpg)
+![Wiring](https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System/blob/master/Security_System_Wiring.jpg)
 
 ## Technologies
 
@@ -129,7 +129,7 @@ above for reference.
 
 **Step 4.** Clone the github repo into whatever directory you want the security system on your Pi:
 
-    sudo git clone repo_name_add_this
+    git clone https://github.com/Liam-RA-Fisher/Single-Door-Raspberry-Pi-Security-System
     
 **Step 5.** Install the following Python3 dependencies:
 
