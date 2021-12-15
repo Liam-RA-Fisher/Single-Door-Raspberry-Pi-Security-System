@@ -166,7 +166,7 @@ into the security_cam.py file:
 
 ## Project Demonstration
 
-
+[![Security System Demo](http://img.youtube.com/vi/9_vj5xXJ-O8/0.jpg)](http://www.youtube.com/watch?v=9_vj5xXJ-O8 "Raspberry Pi 3b+ Security System Demo")
 
 ## Future Ideas
 
