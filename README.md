@@ -102,7 +102,7 @@ It imports the other files and takes care of the threading of the components of 
 
 ### security_cam.py
 
-This file takes care of the seciruty camera.
+This file takes care of the security camera.
 It connects to Google Drive on start up and performs authorization.
 It also creates a function to record footage when prompted and upload the footage to Google Drive.
 
@@ -115,7 +115,7 @@ This file is the API to interact with the Twilio SMS service.
 This program creates three functions. One function monitors and responds to the arm and disarm button.
 When the system is armed or dissarmed, a password is requested as well. There is also an LED
 to indicate if the system is active or not.
-The other function monotors the mini reed door sensor. If the sensor is activated the audio alarm is triggered,
+The other function monitors the mini reed door sensor. If the sensor is activated the audio alarm is triggered,
 the security cam is triggered, and an SMS alert is sent.
 
 ## Set Up
@@ -124,7 +124,7 @@ the security cam is triggered, and an SMS alert is sent.
 
 **Step 2.** Attach the camera to the Pi.
 
-**Step 3.** Wire up the rest of the components with the PI shutdown on a breadboard for testing. Use the wiring diagram 
+**Step 3.** Wire up the rest of the components with the Pi shutdown on a breadboard for testing. Use the wiring diagram 
 above for reference.
 
 **Step 4.** Clone the github repo into whatever directory you want the security system on your Pi:
